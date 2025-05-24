@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".UpdateActivity">
+    tools:context=".UpdateNoteActivity">
 
     <TextView
         android:id="@+id/editNoteHeading"
@@ -14,7 +14,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:fontFamily="@font/poppins"
-        android:text="Add Note"
+        android:textColor="@color/orange"
+        android:text="Edit Note"
         android:textSize="24sp" />
 
     <ImageView
